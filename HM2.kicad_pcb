@@ -3984,7 +3984,7 @@
   (gr_arc (start 115.76066 148.6) (mid 114.7 148.16066) (end 114.26066 147.1) (layer "Edge.Cuts") (width 0.0381) (tstamp 85000dfe-9fd5-4b5e-8fa5-56c6e25c1296))
   (gr_line (start 115.8 91.6) (end 151.9 91.6) (layer "Edge.Cuts") (width 0.0381) (tstamp 90cb4430-e3f6-4845-a656-f54c125e5aa5))
   (gr_line (start 115.76066 148.6) (end 152.3 148.6) (layer "Edge.Cuts") (width 0.0381) (tstamp 9e6bd261-8eda-4606-8200-d946bed1f62b))
-  (gr_arc (start 151.9 91.6) (mid 152.948087 91.98062) (end 153.4 93) (layer "Edge.Cuts") (width 0.0381) (tstamp bc9ff049-b316-4ffc-94dc-df5038b849ca))
+  (gr_arc (start 151.9 91.6) (mid 152.948088 91.98062) (end 153.4 93) (layer "Edge.Cuts") (width 0.0381) (tstamp bc9ff049-b316-4ffc-94dc-df5038b849ca))
   (gr_arc (start 153.4 147.4) (mid 153.131162 148.257732) (end 152.3 148.6) (layer "Edge.Cuts") (width 0.0381) (tstamp d51d5739-2d2b-40bf-9380-b7ecb0d83254))
   (gr_line (start 114.3 93.4) (end 114.3 93.1) (layer "Edge.Cuts") (width 0.0381) (tstamp e0450c32-6c7d-418d-bc0f-aa7cbff84d35))
   (gr_text "HM2 Clone\nV2" (at 134 104.3) (layer "F.SilkS") (tstamp 0ffd9c88-1117-4587-890d-074a10d28172)
