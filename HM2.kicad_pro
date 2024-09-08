@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.25
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -492,7 +492,10 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+9V": "rgb(0, 207, 255)",
+      "/+4V5": "rgb(12, 255, 32)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
