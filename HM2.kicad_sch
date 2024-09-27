@@ -365,6 +365,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at 7.62 -15.24 180)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -7.62 8.89 0)
 					(length 2.54)
@@ -1980,7 +1998,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2N3904"
+		(symbol "Transistor_BJT:MMBT3904"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -1995,7 +2013,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3904"
+			(property "Value" "MMBT3904"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2004,7 +2022,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -2015,7 +2033,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2025,7 +2043,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2043,7 +2061,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2052,7 +2070,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N3904_0_1"
+			(symbol "MMBT3904_0_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -2113,11 +2131,11 @@
 					)
 				)
 			)
-			(symbol "2N3904_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
+			(symbol "MMBT3904_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2133,9 +2151,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2170,7 +2188,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2N3906"
+		(symbol "Transistor_BJT:MMBT3906"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -2185,7 +2203,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3906"
+			(property "Value" "MMBT3906"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2194,7 +2212,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -2205,7 +2223,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2215,7 +2233,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2233,7 +2251,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2242,7 +2260,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N3906_0_1"
+			(symbol "MMBT3906_0_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -2303,11 +2321,11 @@
 					)
 				)
 			)
-			(symbol "2N3906_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
+			(symbol "MMBT3906_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2322,10 +2340,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2924,10 +2942,10 @@
 		(uuid "0c1c8fed-beeb-43a3-97dc-a055bc28cc50")
 	)
 	(junction
-		(at 144.78 67.31)
+		(at 152.4 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d63e855-e55f-450a-b719-59731248882d")
+		(uuid "0c493fe9-b46b-4b8d-93cb-21fc0b1a9920")
 	)
 	(junction
 		(at 46.99 168.91)
@@ -2990,12 +3008,6 @@
 		(uuid "371171c2-bae5-488e-a23c-f1ee286dd401")
 	)
 	(junction
-		(at 195.58 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37e8f2d7-a641-4d6b-8e8b-a1071d6f4035")
-	)
-	(junction
 		(at 276.86 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3012,12 +3024,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "414ae8c0-fbd8-4ff1-9b05-681c0751bb6e")
-	)
-	(junction
-		(at 144.78 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42965c8f-1d76-4583-bf02-3fa5ce74398d")
 	)
 	(junction
 		(at 59.69 25.4)
@@ -3074,12 +3080,6 @@
 		(uuid "5458fa4f-9a21-4639-8d3b-181cf039047c")
 	)
 	(junction
-		(at 144.78 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5555939c-8bb5-4561-97cf-d017d7a97fc4")
-	)
-	(junction
 		(at 276.86 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3108,6 +3108,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70faf379-b4e9-4cb1-9a27-e6dd5c5b84a8")
+	)
+	(junction
+		(at 144.78 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "750d2e1d-6892-432a-8305-ea95beaafea3")
 	)
 	(junction
 		(at 121.92 144.78)
@@ -3224,6 +3230,12 @@
 		(uuid "a1c985fa-3a34-434f-ba3c-3158dbedd171")
 	)
 	(junction
+		(at 195.58 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1ebbecb-72d5-4ba9-a8ff-6744f5b9cb36")
+	)
+	(junction
 		(at 74.93 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3240,6 +3252,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6d6ec17-df42-486b-866f-72d8e4dfafec")
+	)
+	(junction
+		(at 144.78 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6f448ac-d1a2-4b5d-a343-021254f956fa")
 	)
 	(junction
 		(at 217.17 85.09)
@@ -3296,6 +3314,12 @@
 		(uuid "c10b015a-7017-4af3-a3d7-b737a1276130")
 	)
 	(junction
+		(at 144.78 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3570ea1-da6a-4892-bea0-00587cdbd70c")
+	)
+	(junction
 		(at 125.73 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3326,12 +3350,6 @@
 		(uuid "e5678c56-4168-489c-8e5f-755cf581431f")
 	)
 	(junction
-		(at 152.4 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e771a4d5-0dc2-439e-aeb2-17ae65a3c08f")
-	)
-	(junction
 		(at 156.21 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3342,6 +3360,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4996b54-7b10-4826-baec-974115daea18")
+	)
+	(junction
+		(at 142.24 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f76879ec-969e-4898-b189-7460951e645c")
 	)
 	(junction
 		(at 106.68 168.91)
@@ -3545,6 +3569,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111c3741-4144-4605-83ef-41be7c592a18")
+	)
+	(wire
+		(pts
 			(xy 113.03 158.75) (xy 125.73 158.75)
 		)
 		(stroke
@@ -3655,6 +3689,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 82.55) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24be2ac8-9a98-48c9-9d79-bcb4bb3de758")
+	)
+	(wire
+		(pts
 			(xy 59.69 26.67) (xy 59.69 25.4)
 		)
 		(stroke
@@ -3695,16 +3739,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 82.55) (xy 144.78 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27ee0203-d965-4115-af5f-719f6f69ce0c")
-	)
-	(wire
-		(pts
 			(xy 228.6 85.09) (xy 233.68 85.09)
 		)
 		(stroke
@@ -3732,6 +3766,16 @@
 			(type default)
 		)
 		(uuid "294d823b-8e48-46e8-8290-91690142ddaa")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 144.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29883f4c-130a-4eac-981c-a39ce1bba0db")
 	)
 	(wire
 		(pts
@@ -4075,6 +4119,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 76.2) (xy 152.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44279c6f-d001-400e-9964-1c3aa7f9199d")
+	)
+	(wire
+		(pts
 			(xy 29.21 55.88) (xy 31.75 55.88)
 		)
 		(stroke
@@ -4142,6 +4196,16 @@
 			(type default)
 		)
 		(uuid "481e22f0-e934-4629-a62e-02dce8d8b1b5")
+	)
+	(wire
+		(pts
+			(xy 114.3 93.98) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a39683d-aeae-48e5-a2eb-6f8f8e05bc2c")
 	)
 	(wire
 		(pts
@@ -4302,16 +4366,6 @@
 			(type default)
 		)
 		(uuid "5836d5ff-ab8c-4615-8d1b-cf1614dc7c49")
-	)
-	(wire
-		(pts
-			(xy 152.4 88.9) (xy 152.4 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "583ea0f7-2c53-4839-a6a1-ec9bd9d3682e")
 	)
 	(wire
 		(pts
@@ -4725,16 +4779,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 67.31) (xy 152.4 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "868cb465-8f1a-4943-8ecf-cf7f1fc4647c")
-	)
-	(wire
-		(pts
 			(xy 31.75 53.34) (xy 31.75 54.61)
 		)
 		(stroke
@@ -4825,6 +4869,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 82.55) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2ae86a-6c3e-4b32-a978-080a38591bc9")
+	)
+	(wire
+		(pts
 			(xy 157.48 109.22) (xy 157.48 105.41)
 		)
 		(stroke
@@ -4895,6 +4949,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 67.31) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c324bc-e2dc-4902-878e-979f69b8530f")
+	)
+	(wire
+		(pts
 			(xy 74.93 181.61) (xy 93.98 181.61)
 		)
 		(stroke
@@ -4912,16 +4976,6 @@
 			(type default)
 		)
 		(uuid "9500aeea-d72e-452f-9a93-ddaf46c20962")
-	)
-	(wire
-		(pts
-			(xy 144.78 82.55) (xy 144.78 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96c5c557-b811-4b50-bd37-231d729f6b05")
 	)
 	(wire
 		(pts
@@ -4952,16 +5006,6 @@
 			(type default)
 		)
 		(uuid "9862bbd0-4696-43dd-af65-2f2b1812ff09")
-	)
-	(wire
-		(pts
-			(xy 114.3 82.55) (xy 114.3 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9907597a-a4e9-4d33-8d3a-f18c51ebeb29")
 	)
 	(wire
 		(pts
@@ -5305,6 +5349,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 82.55) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9af6ea7-8ae6-4e6a-985e-2aec6428975c")
+	)
+	(wire
+		(pts
 			(xy 114.3 76.2) (xy 114.3 82.55)
 		)
 		(stroke
@@ -5365,7 +5419,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 101.6) (xy 114.3 102.87)
+			(xy 114.3 102.87) (xy 114.3 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5455,7 +5509,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 82.55) (xy 134.62 82.55)
+			(xy 132.08 82.55) (xy 133.35 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5515,16 +5569,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 76.2) (xy 152.4 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c54e3b-8b62-4b75-b79f-2c73fb157c19")
-	)
-	(wire
-		(pts
 			(xy 123.19 90.17) (xy 123.19 88.9)
 		)
 		(stroke
@@ -5545,7 +5589,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 82.55) (xy 125.73 82.55)
+			(xy 123.19 82.55) (xy 124.46 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5572,16 +5616,6 @@
 			(type default)
 		)
 		(uuid "d56e59dc-77e5-46dd-9d75-6b26146be321")
-	)
-	(wire
-		(pts
-			(xy 102.87 88.9) (xy 106.68 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d59bce58-47f4-4f10-8b49-e5ce76aa02cb")
 	)
 	(wire
 		(pts
@@ -5875,6 +5909,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 76.2) (xy 144.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93acd32-d492-42f9-a51a-6563b5b01415")
+	)
+	(wire
+		(pts
 			(xy 123.19 83.82) (xy 123.19 82.55)
 		)
 		(stroke
@@ -6015,7 +6059,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 82.55) (xy 144.78 82.55)
+			(xy 140.97 82.55) (xy 142.24 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6042,6 +6086,16 @@
 			(type default)
 		)
 		(uuid "fcd1f389-c079-4e18-b9db-739421a49e67")
+	)
+	(wire
+		(pts
+			(xy 152.4 87.63) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe494b0e-02be-454e-85ac-3a803bf6cd2a")
 	)
 	(text "VOL"
 		(exclude_from_sim no)
@@ -6540,6 +6594,74 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.24 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "06751987-d19b-402c-a8a3-dc7825fd7286")
+		(property "Reference" "C30"
+			(at 135.89 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100p"
+			(at 138.43 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 141.2748 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cf55498-f91d-4684-9060-9b869c977f87")
+		)
+		(pin "2"
+			(uuid "88a9e906-e39f-4bf3-9061-4d69d4f28055")
+		)
+		(instances
+			(project "HM2"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C30")
+					(unit 1)
 				)
 			)
 		)
@@ -7628,7 +7750,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 102.87 0)
+		(at 114.3 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7636,7 +7758,7 @@
 		(dnp no)
 		(uuid "2b3cf5e3-2ac7-4787-b05c-f76469f8c8f6")
 		(property "Reference" "#PWR08"
-			(at 114.3 109.22 0)
+			(at 114.3 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +7767,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 106.68 0)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,7 +7775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 102.87 0)
+			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +7784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 102.87 0)
+			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 102.87 0)
+			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,6 +8602,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 200.66 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "474b03d8-3040-4146-9d8b-f67d3d008bfc")
+		(property "Reference" "Q3"
+			(at 196.85 141.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 205.994 150.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 205.74 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fda00f0-c0d5-4d56-b289-fff1a69aad6f")
+		)
+		(pin "2"
+			(uuid "aafc26f0-33c6-458e-9207-89561210abfd")
+		)
+		(pin "3"
+			(uuid "4931e740-1296-469c-b15d-a398ce7df61d")
+		)
+		(instances
+			(project "HM2"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 278.13 29.21 0)
 		(unit 1)
@@ -8546,7 +8743,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 97.79 180)
+		(at 114.3 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8554,7 +8751,7 @@
 		(dnp no)
 		(uuid "4cbf2f95-95dd-48e4-816c-5fb406ddf0d0")
 		(property "Reference" "R19"
-			(at 111.76 97.79 90)
+			(at 111.76 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8562,7 +8759,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 114.3 97.79 90)
+			(at 114.3 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8767,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.078 97.79 90)
+			(at 116.078 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +8776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 97.79 0)
+			(at 114.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8785,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 97.79 0)
+			(at 114.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,7 +8876,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
+		(lib_id "Transistor_BJT:MMBT3904")
 		(at 111.76 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8688,7 +8885,7 @@
 		(dnp no)
 		(uuid "54b0fbea-d0dc-415d-b1d1-9b8d908feb7e")
 		(property "Reference" "Q5"
-			(at 115.824 90.17 0)
+			(at 107.95 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,8 +8893,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
-			(at 114.3 93.218 0)
+		(property "Value" "MMBT3904"
+			(at 117.094 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +8902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 116.84 90.805 0)
 			(effects
 				(font
@@ -8716,7 +8913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 			(at 111.76 88.9 0)
 			(effects
 				(font
@@ -8726,7 +8923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 			(at 111.76 88.9 0)
 			(effects
 				(font
@@ -9089,7 +9286,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 82.55 90)
+		(at 137.16 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9097,7 +9294,7 @@
 		(dnp no)
 		(uuid "62bd81b7-7a31-42ba-ae4b-219ce0baa0ba")
 		(property "Reference" "R23"
-			(at 138.43 80.01 90)
+			(at 137.16 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9105,7 +9302,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 138.43 82.55 90)
+			(at 137.16 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9113,7 +9310,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 138.43 84.328 90)
+			(at 137.16 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9122,7 +9319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 82.55 0)
+			(at 137.16 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +9328,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 82.55 0)
+			(at 137.16 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +9759,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3906")
+		(lib_id "Transistor_BJT:MMBT3906")
 		(at 149.86 82.55 0)
 		(mirror x)
 		(unit 1)
@@ -9581,7 +9778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3906"
+		(property "Value" "MMBT3906"
 			(at 154.7114 83.7621 0)
 			(effects
 				(font
@@ -9590,7 +9787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 154.94 80.645 0)
 			(effects
 				(font
@@ -9601,7 +9798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
 			(at 149.86 82.55 0)
 			(effects
 				(font
@@ -9611,7 +9808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
 			(at 149.86 82.55 0)
 			(effects
 				(font
@@ -9656,7 +9853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "220u"
 			(at 59.944 30.988 0)
 			(effects
 				(font
@@ -9665,7 +9862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 59.69 29.21 0)
 			(effects
 				(font
@@ -10051,81 +10248,6 @@
 			(project "HM2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 200.66 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "814e19b0-8a9c-4ca3-b829-065b9054d472")
-		(property "Reference" "Q3"
-			(at 204.724 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 203.962 148.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 205.74 146.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 200.66 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 200.66 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1688e9b-f2ec-4989-ac4f-6680f07ac93a")
-		)
-		(pin "2"
-			(uuid "1b1113ee-716b-4134-834a-577e413acebe")
-		)
-		(pin "3"
-			(uuid "f51f73b6-0d6a-4ce1-a794-e2af441a6b0b")
-		)
-		(instances
-			(project "HM2"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -12946,7 +13068,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 129.54 82.55 90)
+		(at 128.27 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12954,7 +13076,7 @@
 		(dnp no)
 		(uuid "dea7e768-f999-4269-9594-e5f554a85b8b")
 		(property "Reference" "C14"
-			(at 129.54 76.2 90)
+			(at 128.27 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12962,7 +13084,7 @@
 			)
 		)
 		(property "Value" "47n"
-			(at 129.54 78.74 90)
+			(at 128.27 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12970,7 +13092,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 133.35 81.5848 0)
+			(at 132.08 81.5848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12979,7 +13101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 82.55 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12988,7 +13110,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 82.55 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14009,6 +14131,9 @@
 		(pin "9"
 			(uuid "a1e89a7f-44be-4287-984e-3ff00621d2d0")
 		)
+		(pin "12"
+			(uuid "f8820ae1-c09e-4c6f-a423-985171da17a0")
+		)
 		(instances
 			(project "HM2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -14082,6 +14207,71 @@
 			(project "HM2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3302e23-6a3e-48ba-b56e-9d468e7163fe")
+		(property "Reference" "#PWR022"
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9df7d60-5313-4ebc-9bfb-b18f563bf74e")
+		)
+		(instances
+			(project "HM2"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
